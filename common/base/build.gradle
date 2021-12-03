@@ -1,0 +1,2 @@
+apply from: "${rootProject.projectDir}/config.gradle"
+apply plugin: 'kotlin-android'

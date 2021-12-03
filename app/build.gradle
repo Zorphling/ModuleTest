@@ -1,0 +1,18 @@
+apply from: "${rootProject.projectDir}/config.gradle"
+
+android{
+    buildTypes {
+        debug {
+            addManifestPlaceholders([
+                    APP_NAME: "ModuleTest_Debug",
+                    APP_ICON: "@mipmap/app_ic_launcher_debug"
+            ])
+        }
+        release {
+            addManifestPlaceholders([
+                    APP_NAME: "ModuleTest",
+                    APP_ICON: "@mipmap/app_ic_launcher"
+            ])
+        }
+    }
+}
