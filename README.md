@@ -1,0 +1,3 @@
+# ModuleTest
+组件化测试
+基础的组件化框架测试项目，可以抽出base等作为功能组件放在common下，其他模块组件都放在module下
